@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome BoilerPlate Inject",
+  "description": "This extension is a BoilerPlate for Chrome Browser Injectio",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery.js","display.js"]
+    }
+  ]
+}
+     
+ 
